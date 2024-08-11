@@ -1,0 +1,221 @@
+.Advertise{
+    margin: 0 50px ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    margin-top: 1px ;
+    margin-left: 11.6rem;
+    margin-right: 1rem;
+
+}
+.nav-items{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.nav-items>a{
+    margin-left: 40px;
+}
+
+.Button_class{
+
+    margin-top: 28px;
+    margin-right: 10%;
+    
+}
+.Button_class>button{
+    margin-left: 20px;
+}
+/* .d-block w-100{
+    height: 100px;
+} */
+
+
+/* container */
+.container{
+    margin-bottom: 8rem;
+}
+
+/* services */
+.services{
+    margin: 1rem 3rem 8rem 3rem;
+    display: flex;
+}
+.services-box{
+    text-align: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/* button */
+.btn {
+    background: #62CDFF;
+    background-image: -webkit-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: -moz-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: -ms-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: -o-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: linear-gradient(to bottom, #62CDFF, #62CDFF);
+    -webkit-border-radius: 29;
+    -moz-border-radius: 29;
+    border-radius: 29px;
+    font-family: Georgia;
+    color: #ffff;
+    font-size: 20px;
+    padding: 8px 20px 7px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #62CDFF;
+    background-image: -webkit-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: -moz-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: -ms-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: -o-linear-gradient(top, #62CDFF, #62CDFF);
+    background-image: linear-gradient(to bottom, #62CDFF, #62CDFF);
+    text-decoration: none;
+  }
+
+  /* gallery */
+  .gallery{
+    text-align: center;
+  }
+ .gallery-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #62CDFF;
+ }
+  .Rooms-gallery{
+    height: 100vh;
+    display: flex;
+  }
+  .gallery-highlight{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .gallery-highlight img{
+    width: 90%;
+  }
+  .gallery-preview{
+    margin-top: 2rem;
+    display: flex;
+
+    
+    /* margin-right: 3rem; */
+    gap: 3rem;
+  }
+.gallery-preview img{
+    height: 80px;
+    width: 80%;
+    flex-grow: 1;
+    cursor: pointer;
+   
+}
+:hover .gallery-preview img{
+  opacity: 1;
+  transition:  0.3s ease;
+}
+
+/* facilities */
+.facilities{
+  text-align: center;
+}
+.item-facilities{
+  text-align: center;
+  margin: 3rem 2rem 3rem 2rem;
+  display: flex;
+  margin-bottom: 6rem;
+}
+.f-items{
+  text-align: center;
+  width: 50%;
+}
+.f-circle-image:hover{
+  border-radius: 60px 60px 60px 60px;
+  cursor: pointer;
+  background-color: #62CDFF;
+  transition: 0.3s ease;
+}
+
+.item-facilities2{
+  text-align: center;
+  margin: 3rem 2rem 3rem 2rem;
+  display: flex;
+}
+
+/* membership */
+.card-heading{
+  text-align: center;
+margin: 5% 10% 5%;
+}
+
+
+
+/* Testimonials */
+#Testimonials{
+  text-align: center;
+  background-color:  #62CDFF;
+  font-family: Montserrat;
+  color: #fff;
+}
+.testimonial-text{
+  padding: 3% 15% 3%;
+}
+#press>img{
+  width: 10%;
+  margin: 2rem 2rem 6rem;
+}
+
+/* map */
+#map{
+  display: flex;
+}
+
+input[type=text], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
